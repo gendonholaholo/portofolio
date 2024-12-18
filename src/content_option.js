@@ -76,27 +76,30 @@ const services = [{
 ];
 
 import ftImage from "./assets/images/ThumbnailPort/fine-tunning.png"
+import wlImage from "./assets/images/ThumbnailPort/launcher.png"
+import brImage from "./assets/images/ThumbnailPort/Gos.png"
+import pmImage from "./assets/images/ThumbnailPort/management.png"
 
 const dataportfolio = [
     {
         img: ftImage,
         description: "Fine-tuning model.",
-        link: "#",
+        link: "https://github.com/gendonholaholo/sd_finetune",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: brImage,
         description: "Background remover menggunakan DeepLabV3+.",
-        link: "#",
+        link: "https://github.com/gendonholaholo/auto-crop.git",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "Model PyTorch sederhana.",
-        link: "#",
+        img: pmImage,
+        description: "Project Management (NodeJS).",
+        link: "https://github.com/gendonholaholo/soal-pengelolaanProyek",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: wlImage,
         description: "Windows launcher.",
-        link: "#",
+        link: "https://github.com/gendonholaholo/gos_launcher_c-",
     },
 ];
 
